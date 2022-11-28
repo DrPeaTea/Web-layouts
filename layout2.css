@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.column {
+  display: flex;
+  gap: 20px;
+}
+.purple {
+  background-color: #9381ff;
+  height: 88px;
+  width: 920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.label {
+  background-color: #f8f6cf;
+  height: 28px;
+  width: 110px;
+  border-radius: 20px;
+}
+.red {
+  background-color: #e06666;
+  height: 600px;
+  width: 293.33px;
+}
+.green {
+  background-color: #93c47d;
+  height: 600px;
+  width: 293.33px;
+}
+.yellow {
+  background-color: #ff9900;
+  height: 600px;
+  width: 293.33px;
+}
+.purple2 {
+  background-color: #9381ff;
+  height: 145px;
+  width: 920px;
+}
