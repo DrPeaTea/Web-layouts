@@ -3,7 +3,7 @@
 }
 .header {
   background-color: #1f2937;
-  height: 100px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
   color: #f9faf8;
@@ -12,9 +12,16 @@
 .logo {
   width: 50%;
 }
+a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+a:hover {
+  color: #3882f6;
+}
 .content1 {
   background-color: #1f2937;
-  height: 400px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +90,10 @@
 }
 .content3 {
   background-color: #e5e7eb;
-  height: 500px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .quote {
   font-size: 36px;
@@ -93,7 +103,7 @@
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 150px;
+  display: flex;
 }
 .quoter {
   font-size: 30px;
